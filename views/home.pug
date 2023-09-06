@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+block content 
+        section.contentSection 
+            div.firstdiv Welcome to Rajiv Dance Classes
+            div.seconddiv Start Your Dance
+        section.missionSection 
+            h2 Our Mission
+            div.missionContainer
+                div.card 
+                    h3 Any Body Can Dance
+                    div.cardDetails
+                        div.img1 
+                            img(src="../static/img/logo1card.png", alt="")
+                        div.intro Dance is your pulse, your heartbeat, your breathing. It’s the rhythm of your life. It’s the expression in time and movement, in happiness, delight, unhappiness and envy.
+                div.card 
+                    h3 Dance The Way You Like 
+                    div.cardDetails
+                        div.img1 
+                            img(src="../static/img/logo2card.png", alt="")
+                        div.intro The minute is whatever. Do not think of tomorrow; do not think about the other day: consider precisely what you’re doing right now, live it, dance it, breathe it, and be it.
+                div.card 
+                    h3 Learn Dance With Team
+                    div.cardDetails
+                        div.img1 
+                            img(src="../static/img/logo3card.png", alt="")
+                        div.intro Learn the craft of knowing how to open your heart and to switch on your imagination. There’s a light within of you.perferendis consectetur!
+
+        section.sponserSection 
+            h2 Our Sponsers
+            div.sponserImg 
+                div.spons 
+                    img(src="../static/img/sp1.png", alt="")
+                    img(src="../static/img/sp2.png", alt="")
+                    img(src="../static/img/sp3.png", alt="")
+                    img(src="../static/img/sp4.png", alt="")
